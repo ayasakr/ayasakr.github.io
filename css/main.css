@@ -710,9 +710,6 @@ h1,h2,h3,h4,h5,h6 {
   .header-nav .drop-trigger:after {
     display: none;
   }
-  .mobile-menu-check:checked ~ .show-mobile-menu::first-line {
-    color: #000;
-  }
   .header-nav .drop-trigger {
     padding-right: 0;
   }
