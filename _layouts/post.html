@@ -3,10 +3,6 @@ layout: default
 ---
 
 <div class="post">
-<<<<<<< HEAD
-
-=======
->>>>>>> 49d2e1e551511cbbfd2bb02bcd4fd853be218d0b
   <div class="half-hero" style="background-image:url({{ page.postHero }})"></div>
 
   <article class="page">
@@ -15,18 +11,13 @@ layout: default
       <div class="post-byline">
         <img src="{{ page.gravatar }}">
         <a href="{{ page.authorTwitter }}" class="social-link">
-<<<<<<< HEAD
-          <i class="fa fa-twitter"></i>
-=======
           <i class="fab fa-twitter"></i>
->>>>>>> 49d2e1e551511cbbfd2bb02bcd4fd853be218d0b
         </a>
         by: {{ page.author }}
         <span> - {{ page.date | date: '%B %d, %Y' }}</span>
       </div>
     </header>
     <aside class="post-aside">
-<<<<<<< HEAD
       <h4>Recent Posts</h4>
       <ul class="blog-title-list">
         {% for post in site.posts limit:5 %}
@@ -36,9 +27,7 @@ layout: default
           </li>
         {% endfor %}
       </ul>
-=======
       {% include post-aside.html %}
->>>>>>> 49d2e1e551511cbbfd2bb02bcd4fd853be218d0b
     </aside>
     <div class="post-content">
       {{ content }}
@@ -47,9 +36,5 @@ layout: default
       {{ page.postFooter }}
     </footer>
   </article>
-<<<<<<< HEAD
 
 </div>
-=======
-</div>
->>>>>>> 49d2e1e551511cbbfd2bb02bcd4fd853be218d0b
